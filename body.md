@@ -1,6 +1,6 @@
-#Follow along: http://mattsayler.github.io/Automating_Feeder_Maps_Presentation
+#Follow along: http://mattsayler.github.io/Map_Automation_GIA2017
 
-#_Automating_ Feeder Maps Using _Data Driven Pages_ and _Arcpy_
+#_Python_ for Map _Automation_
 
 OR
 
@@ -21,9 +21,9 @@ Electric and Water
 
 #Clark GIS System
 
-ArcGIS 10.0 SP4
+ArcGIS 10.2.1
 
-ArcFM 10.0 SP2
+ArcFM 10.2.1
 
 #Where Things _Started_
 
@@ -37,7 +37,7 @@ Custom _jpegs_ for inset details (_~300_ images)
 
 Custom _'best-fit'_ grid layout for _each_ feeder
 
-#Example _Old_ Feeder Map
+#Example _Old_ System Map
 
 ![](./Images/AST4_Original.png)
 
@@ -103,7 +103,7 @@ Remain _flexible_
 
 Greatly _reduce_ production time
 
-#Example _New_ Feeder Map
+#Example _New_ System Map
 
 ![](./Images/AST4_New.png)
 
