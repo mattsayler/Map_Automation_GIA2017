@@ -194,5 +194,4 @@ def updateParameters(self):
 _Thank you!_
 
 * [msayler@clarkpud.com](mailto:msayler@clarkpud.com)
-* [@mattsayler](https://www.twitter.com/mattsayler)
 * [github.com/mattsayler](https://www.github.com/mattsayler)
