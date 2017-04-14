@@ -35,7 +35,7 @@ Custom _layouts_ with _selection-set_ layers
 
 Custom _jpegs_ for inset details (_~300_ images)
 
-Custom _'best-fit'_ grid layout for _each_ feeder
+Custom _'best-fit'_ grid layout for _each_ mapbook
 
 #Example _Old_ System Map
 
@@ -125,7 +125,7 @@ MXD layout:
 
 #Process' Steps 
 
-For Each _Feeder_ Selected:
+For Each _Mapbook_ Selected:
 
 Empty _PDF_ generated
 
@@ -157,7 +157,7 @@ _Limited_ number of _insets_ per page
 
 Can be _difficult_ to make _well laid-out_ insets
 
-_Non-network_ features _can't_ easily be symbolized by _feeder_
+_Non-network_ features _can't_ easily be symbolized by _network_ ID
 
 (selection set layers formerly)
 
@@ -165,7 +165,7 @@ _Extra_ paper usage
 
 #Another _Cool_ Feature Implemented
 
-_Dynamically generated_ feeder picklist!
+_Dynamically generated_ picklist!
 
 ![](./Images/ScriptToolDialog.png)
 
