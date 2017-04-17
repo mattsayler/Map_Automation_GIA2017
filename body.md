@@ -1,6 +1,6 @@
 #Follow along: http://mattsayler.github.io/Map_Automation_GIA2017
 
-#_Python_ for Map _Automation_
+#_Python_ for Mapbook _Automation_
 
 OR
 
@@ -23,11 +23,9 @@ Electric and Water
 
 ArcGIS 10.2.1
 
-ArcFM 10.2.1
+ArcFM 10.2.1c
 
 #Where Things _Started_
-
-_Dedicated_ full-time employee
 
 _~450_ pages of _individually customized_ MXD files
 
@@ -36,6 +34,8 @@ Custom _layouts_ with _selection-set_ layers
 Custom _jpegs_ for inset details (_~300_ images)
 
 Custom _'best-fit'_ grid layout for _each_ mapbook
+
+_Dedicated_ full-time employee
 
 #Example _Old_ System Map
 
@@ -65,25 +65,9 @@ Position _left vacant_
 
 _Same_ work, _fewer_ resources
 
-#Option One
-
-Continue with the _existing_ process
-
-(GIS staff _mutinies_)
-
-#Option Two
-
-Go to a _standardized_, county-wide map grid w/_simplified_ symbology
-
-(Dispatch staff _mutinies_)
-
-#Option Three
+#Solution
 
 Standarize map _elements_ and leverage new _Data Driven Pages_ functionality
-
-(Some _initial_ grumbling, but _no mutinies!_)
-
-Bingo
 
 #_What_ are [Data Driven Pages](http://resources.arcgis.com/en/help/main/10.2/index.html#//00s90000003m000000)?
 
@@ -194,5 +178,5 @@ def updateParameters(self):
 _Thank you!_
 
 * [msayler@clarkpud.com](mailto:msayler@clarkpud.com)
-* 
+* &nbsp;
 * [github.com/mattsayler](https://www.github.com/mattsayler)
