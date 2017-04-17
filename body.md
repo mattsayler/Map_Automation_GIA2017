@@ -1,6 +1,4 @@
-#Follow along: http://mattsayler.github.io/Map_Automation_GIA2017
-
-#_Python_ for Mapbook _Automation_
+# _Python_ for Mapbook _Automation_
 
 OR
 
@@ -9,23 +7,23 @@ OR
 Matt Sayler
 _Clark Public Utilities_
 
-#_Obligatory_ Organization _Stats_ Slide
+# _Obligatory_ Organization _Stats_ Slide
 
 Public Utility District
 
-Electric and Water
+Electric and Water Distribution
 
-~185,000 Electric Meters
+~200,000 Electric Meters
 
 ~400 Employees
 
-#Clark GIS System
+# Clark GIS System
 
 ArcGIS 10.2.1
 
 ArcFM 10.2.1c
 
-#Where Things _Started_
+# Original Mapbook Setup
 
 _~450_ pages of _individually customized_ MXD files
 
@@ -35,21 +33,19 @@ Custom _jpegs_ for inset details (_~300_ images)
 
 Custom _'best-fit'_ grid layout for _each_ mapbook
 
-_Dedicated_ full-time employee
-
-#Example _Old_ System Map
+# Example _Old_ System Map
 
 ![](./Images/AST4_Original.png)
 
-#Pros:
+# Pros:
 
 Highly _specific_ symbology
 
 Covers _edge-case_ maps very well
 
-Fits _Dispatch's_ specific _needs_ very well
+Fits _user's_ specific _needs_ very well
 
-#Cons:
+# Cons:
 
 Management _nightmare_ for GIS Dept.
 
@@ -57,29 +53,25 @@ _Turn-around_ time commonly measured in _days_ per page
 
 _Complex_ process to _add_ new pages
 
-#Then...
+# Problem
 
-Dedicated employee _retires_
+_Reduced_ staff resources
 
-Position _left vacant_
+# Solution
 
-_Same_ work, _fewer_ resources
+Standarize map _elements_ and leverage _Data Driven Pages_ functionality
 
-#Solution
-
-Standarize map _elements_ and leverage new _Data Driven Pages_ functionality
-
-#_What_ are [Data Driven Pages](http://resources.arcgis.com/en/help/main/10.2/index.html#//00s90000003m000000)?
+# _What_ are [Data Driven Pages](http://resources.arcgis.com/en/help/main/10.2/index.html#//00s90000003m000000)?
 
 _Tools_ for creating _mapbooks_ using _feature classes_ 
 
 (basically)
 
-#_What_ is [arcpy](http://resources.arcgis.com/en/help/main/10.2/index.html#//000v000000v7000000)?
+# _What_ is [arcpy](http://resources.arcgis.com/en/help/main/10.2/index.html#//000v000000v7000000)?
 
 Esri [python](https://www.python.org/) library for _geoprocessing_ and _other_ tasks
 
-#Project Goals
+# Project Goals
 
 Retain _80-90%_ of original maps' features
 
@@ -87,11 +79,11 @@ Remain _flexible_
 
 Greatly _reduce_ production time
 
-#Example _New_ System Map
+# Example _New_ System Map
 
 ![](./Images/AST4_New.png)
 
-#How does it work?
+# How does it work?
 
 Data Driven Pages drive the _map_ using our _custom grids_
 
@@ -107,7 +99,7 @@ MXD layout:
 
 ![](./Images/Layout_Screenshot.png)
 
-#Process' Steps 
+# Process' Steps 
 
 For Each _Mapbook_ Selected:
 
@@ -127,7 +119,7 @@ Temp _PDF_ for _page_ created
 
 Temp _page_ added to _empty PDF_
 
-#Pros:
+# Pros:
 
 _ONE_ mxd to manage!
 
@@ -135,7 +127,7 @@ Can produce _several_ pages a day
 
 _Standardized_ map layout
 
-#Cons:
+# Cons:
 
 _Limited_ number of _insets_ per page
 
@@ -147,7 +139,7 @@ _Non-network_ features _can't_ easily be symbolized by _network_ ID
 
 _Extra_ paper usage
 
-#Another _Cool_ Feature Implemented
+# Another _Cool_ Feature Implemented
 
 _Dynamically generated_ picklist!
 
@@ -173,7 +165,7 @@ def updateParameters(self):
   return
 ```
 
-#Questions?
+# Questions?
 
 _Thank you!_
 
